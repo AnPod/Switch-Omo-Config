@@ -1,0 +1,17 @@
+{
+  "google_auth": false,
+  "agents": {
+    "explore": {
+      "model": "opencode/grok-code"
+    },
+    "frontend-ui-ux-engineer": {
+      "model": "google/gemini-3-pro-high"
+    },
+    "document-writer": {
+      "model": "google/gemini-3-pro-high"
+    },
+    "multimodal-looker": {
+      "model": "google/gemini-2.5-flash"
+    }
+  }
+}

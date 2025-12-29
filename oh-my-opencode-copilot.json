@@ -1,0 +1,72 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "google_auth": false,
+  "agents": {
+    "Sisyphus": {
+      "model": "github-copilot/claude-opus-4.5",
+      "temperature": 0.3,
+      "description": "Primary orchestrator agent with powerful AI capabilities"
+    },
+    "OpenCode-Builder": {
+      "model": "github-copilot/claude-opus-4.5",
+      "temperature": 0.3,
+      "description": "Default build agent for development tasks"
+    },
+    "Planner-Sisyphus": {
+      "model": "github-copilot/claude-opus-4.5",
+      "temperature": 0.1,
+      "description": "Strategic planning agent with minimal creativity"
+    },
+    "oracle": {
+      "model": "openai/gpt-5.2",
+      "temperature": 0.2,
+      "description": "Expert technical advisor for architecture decisions and code analysis"
+    },
+    "librarian": {
+      "model": "github-copilot/claude-opus-4.5",
+      "temperature": 0.1,
+      "description": "Multi-repository analysis, official docs, and implementation examples"
+    },
+    "explore": {
+      "model": "github-copilot/claude-haiku-4.5",
+      "temperature": 0.1,
+      "description": "Fast agent for codebase exploration and pattern matching"
+    },
+    "frontend-ui-ux-engineer": {
+      "model": "google/gemini-3-pro",
+      "temperature": 0.4,
+      "description": "Designer-turned-developer for stunning UI/UX implementation"
+    },
+    "document-writer": {
+      "model": "google/gemini-3-flash",
+      "temperature": 0.3,
+      "description": "Technical writing expert for documentation and guides"
+    },
+    "multimodal-looker": {
+      "model": "google/gemini-3-flash",
+      "temperature": 0.2,
+      "description": "Analyzes PDFs, images, diagrams beyond raw text"
+    }
+  },
+  "sisyphus_agent": {
+    "disabled": false,
+    "default_builder_enabled": false,
+    "planner_enabled": true,
+    "replace_plan": true
+  },
+  "claude_code": {
+    "mcp": true,
+    "commands": true,
+    "skills": true,
+    "agents": true,
+    "hooks": true,
+    "plugins": true
+  },
+  "experimental": {
+    "aggressive_truncation": false,
+    "auto_resume": false,
+    "truncate_all_tool_outputs": true,
+    "dcp_for_compaction": false
+  },
+  "auto_update": true
+}
