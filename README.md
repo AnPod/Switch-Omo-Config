@@ -2,7 +2,7 @@
 
 Interactive CLI tool to switch between [oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode) configuration profiles.
 
-![Version](https://img.shields.io/badge/version-1.06-blue) ![macOS](https://img.shields.io/badge/macOS-compatible-brightgreen) ![Shell](https://img.shields.io/badge/shell-bash-blue)
+![Version](https://img.shields.io/badge/version-1.07-blue) ![macOS](https://img.shields.io/badge/macOS-compatible-brightgreen) ![Shell](https://img.shields.io/badge/shell-bash-blue)
 
 ## What it does
 
@@ -159,6 +159,7 @@ Add this to `~/.config/opencode/opencode.json` (or project `opencode.json`) and 
 
 ## Changelog
 
+- **v1.07** - Added `oh-my-opencode-full-copilot.json` profile (all agents use GitHub Copilot models)
 - **v1.06** - Upgraded Google models to `antigravity-*` variants for improved performance
 - **v1.05** - Upgraded `multimodal-looker` agent from `gemini-2.5-flash` to `gemini-3-flash`
 - **v1.04** - Added version badge and changelog to README
