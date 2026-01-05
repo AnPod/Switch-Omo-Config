@@ -1,72 +1,29 @@
 {
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
-  "google_auth": false,
   "agents": {
     "Sisyphus": {
-      "model": "google/antigravity-claude-opus-4-5-thinking-high",
-      "temperature": 0.3,
-      "description": "Primary orchestrator agent with powerful AI capabilities"
-    },
-    "OpenCode-Builder": {
-      "model": "google/antigravity-claude-opus-4-5-thinking-high",
-      "temperature": 0.3,
-      "description": "Default build agent for development tasks"
+      "model": "google/antigravity-claude-opus-4-5-thinking-high"
     },
     "Planner-Sisyphus": {
-      "model": "google/antigravity-claude-opus-4-5-thinking-high",
-      "temperature": 0.1,
-      "description": "Strategic planning agent with minimal creativity"
-    },
-    "oracle": {
-      "model": "openai/gpt-5.2",
-      "temperature": 0.2,
-      "description": "Expert technical advisor for architecture decisions and code analysis"
+      "model": "google/antigravity-claude-opus-4-5-thinking-high"
     },
     "librarian": {
-      "model": "google/antigravity-claude-opus-4-5-thinking-high",
-      "temperature": 0.1,
-      "description": "Multi-repository analysis, official docs, and implementation examples"
+      "model": "google/antigravity-claude-opus-4-5-thinking-high"
     },
     "explore": {
-      "model": "opencode/grok-code",
-      "temperature": 0.1,
-      "description": "Fast agent for codebase exploration and pattern matching"
+      "model": "opencode/grok-code"
+    },
+    "oracle": {
+      "model": "openai/gpt-5.2"
     },
     "frontend-ui-ux-engineer": {
-      "model": "google/antigravity-gemini-3-pro-high",
-      "temperature": 0.4,
-      "description": "Designer-turned-developer for stunning UI/UX implementation"
+      "model": "google/antigravity-gemini-3-pro-high"
     },
     "document-writer": {
-      "model": "google/antigravity-gemini-3-pro-high",
-      "temperature": 0.3,
-      "description": "Technical writing expert for documentation and guides"
+      "model": "google/antigravity-gemini-3-flash"
     },
     "multimodal-looker": {
-      "model": "google/antigravity-gemini-3-flash",
-      "temperature": 0.2,
-      "description": "Analyzes PDFs, images, diagrams beyond raw text"
+      "model": "google/antigravity-gemini-3-flash"
     }
-  },
-  "sisyphus_agent": {
-    "disabled": false,
-    "default_builder_enabled": false,
-    "planner_enabled": true,
-    "replace_plan": true
-  },
-  "claude_code": {
-    "mcp": true,
-    "commands": true,
-    "skills": true,
-    "agents": true,
-    "hooks": true,
-    "plugins": true
-  },
-  "experimental": {
-    "aggressive_truncation": false,
-    "auto_resume": false,
-    "truncate_all_tool_outputs": true,
-    "dcp_for_compaction": false
-  },
-  "auto_update": true
+  }
 }

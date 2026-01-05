@@ -2,28 +2,28 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
   "agents": {
     "Sisyphus": {
-      "model": "minimax/MiniMax-M2.1"
+      "model": "opencode/glm-4.7-free"
     },
     "Planner-Sisyphus": {
-      "model": "minimax/MiniMax-M2.1"
+      "model": "opencode/glm-4.7-free"
     },
     "librarian": {
-      "model": "minimax/MiniMax-M2.1"
+      "model": "opencode/glm-4.7-free"
     },
     "explore": {
-      "model": "minimax/MiniMax-M2.1"
+      "model": "opencode/glm-4.7-free"
     },
     "oracle": {
-      "model": "minimax/MiniMax-M2.1"
+      "model": "anthropic/claude-opus-4-5"
     },
     "frontend-ui-ux-engineer": {
-      "model": "google/antigravity-gemini-3-pro-high"
+      "model": "anthropic/claude-opus-4-5"
     },
     "document-writer": {
-      "model": "google/antigravity-gemini-3-flash"
+      "model": "anthropic/claude-opus-4-5"
     },
     "multimodal-looker": {
-      "model": "google/antigravity-gemini-3-flash"
+      "model": "anthropic/claude-opus-4-5"
     }
   }
 }
